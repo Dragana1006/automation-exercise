@@ -23,6 +23,7 @@ public class TC5RegisterUserWithExistingEmail extends BaseClass {
 
     @BeforeMethod
     public void initial(){
+
         homePage = new HomePage(driver);
         signUpPage = new SignUpPage(driver);
     }
